@@ -1,0 +1,22 @@
+*
+{
+margin: 0px;
+}
+.mypage{
+    background: black;
+
+}
+#mydiv{
+    margin:auto;
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    background-color: corel;
+    color: blue;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    100% {
+        transform: rotate(360deg);
+    }
+}
